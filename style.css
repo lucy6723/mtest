@@ -1,0 +1,32 @@
+/*use-itty-bitty-template*/
+body {background: #FFFFFF;}
+h1, h2, h3, h4, h5 {
+  border-bottom: 3px dashed #FFF;
+  color: #000;
+  padding-bottom: 10px;
+  font-family: arial;
+}
+.container {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  font-family: arial;
+}
+.listFlex {display: flex; justify-content: center;}
+
+img {
+  width: 100%;
+}
+
+.text-block {
+  position: absolute;
+  top: 345px;
+  right: 600px;
+  background-color: white;
+  font-color: black;
+  font-family: arial;
+  width:230px;
+  height:435px;
+  overflow:scroll;
+
+}
